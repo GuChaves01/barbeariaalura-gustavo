@@ -1,0 +1,72 @@
+div h1{
+    display: inline;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #888888;
+    text-decoration: underline;
+}
+#navheader{
+    width: 940px;
+    position: relative;
+    margin: 50px auto;
+}
+nav{
+    position: absolute;
+    top: -55%;
+    left: 50%;
+}
+.tituloPrincipal{
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+#banner{
+    width: 100%;
+    opacity: 50%;
+}
+.principal{
+    background: #dddddd;
+    padding: 30px;
+}
+.titulosCenter{
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+#missao {
+    font-size: 20px;
+}
+p  em  strong{
+    color: #ff0000;
+}
+.beneficios{
+    background: #ffffff;
+    padding: 20px;
+}
+
+.listaBeneficios{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.itemBeneficios{
+    font-style: italic;
+    color: #aabb11;
+    
+}
+.imagemBeneficios{
+    width: 50%;
+
+}
